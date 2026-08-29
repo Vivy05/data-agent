@@ -159,7 +159,7 @@ cython_debug/
 
 /docker/elasticsearch/plugins/
 
-/docker/embedding/
+docker/embedding/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
