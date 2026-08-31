@@ -19,8 +19,6 @@ class EmbeddingClientManger:
 
 
 
-
-
 # import httpx
 # from typing import List
 # from app.conf.app_config import EmbeddingConfig, app_config

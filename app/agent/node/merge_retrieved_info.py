@@ -10,7 +10,7 @@ from app.repository.mysql.meta_mysql_repository import MetaMySQLRepository
 
 async def merge_retrieved_info(state: DataAgentState,runtime:Runtime[DataAgentContext]):
     writer = runtime.stream_writer
-    writer("合并召回信息")
+    writer("app/agent/node/merge_retrieved_info.py")
 
     retrieved_columns: list[ColumnInfoQdrant] = state["retrieved_columns"]
     retrieved_metrics: list[MetricInfoQdrant] = state["retrieved_metrics"]
